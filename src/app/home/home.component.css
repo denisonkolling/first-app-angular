@@ -38,3 +38,16 @@ button {
       grid-template-columns: 1fr;
   }    
 }
+
+button {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(96, 93, 200, 0.85);
+}
